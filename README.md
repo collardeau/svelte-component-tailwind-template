@@ -1,6 +1,6 @@
 # svelte-component-tailwind-template
 
-A base for building shareable Svelte components with [tailwindcss](https://tailwindcss.com/). Clone it with [degit](https://github.com/Rich-Harris/degit):
+A base for building shareable Svelte components that includes [tailwindcss](https://tailwindcss.com/). Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
 npx degit collardeau/svelte-component-tailwind-template my-new-component
