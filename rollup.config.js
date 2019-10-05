@@ -1,5 +1,6 @@
 import svelte from "rollup-plugin-svelte";
 import resolve from "rollup-plugin-node-resolve";
+import postcss from "rollup-plugin-postcss";
 import pkg from "./package.json";
 
 const name = pkg.name
@@ -13,5 +14,5 @@ export default {
     { file: pkg.module, format: "es" },
     { file: pkg.main, format: "umd", name }
   ],
-  plugins: [svelte(), resolve()]
+  plugins: [postcss(), svelte(), resolve()]
 };
