@@ -1,24 +1,14 @@
-*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*
+# svelte-component-tailwind-template
 
----
-
-# component-template
-
-A base for building shareable Svelte components. Clone it with [degit](https://github.com/Rich-Harris/degit):
+A base for building shareable Svelte components with [tailwindcss](https://tailwindcss.com/). Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/component-template my-new-component
+npx degit collardeau/svelte-component-tailwind-template my-new-component
 cd my-new-component
 npm install # or yarn
 ```
 
 Your component's source code lives in `src/index.svelte`.
-
-TODO
-
-* [ ] some firm opinions about the best way to test components
-* [ ] update `degit` so that it automates some of the setup work
-
 
 ## Setting up
 
